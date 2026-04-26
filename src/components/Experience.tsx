@@ -70,7 +70,7 @@ const Experience = () => {
                       <ArrowUpRight className="mt-1 h-4 w-4 shrink-0 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-primary" />
                     </h3>
                     <div className="mt-1 text-sm text-muted-foreground">{exp.company}</div>
-                    <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
+                    <p className="mt-4 text-sm leading-relaxed text-muted-foreground whitespace-pre-line">
                       {exp.description}
                     </p>
                     <div className="mt-5 flex flex-wrap gap-2">
