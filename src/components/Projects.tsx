@@ -68,7 +68,10 @@ const Projects = () => {
       <div className="container mx-auto px-6">
         <SectionHeader number="03" subtitle="Selected work" title="Projects" />
 
-        <div className="grid gap-7 sm:grid-cols-2 lg:grid-cols-3" style={{ perspective: 1200 }}>
+        <div
+          className="-mx-6 flex snap-x snap-mandatory gap-7 overflow-x-auto px-6 pb-6"
+          style={{ perspective: 1200, scrollbarWidth: "thin" }}
+        >
           {projects.map((p, i) => (
             <motion.div
               key={p.name}
@@ -76,6 +79,7 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.7, delay: (i % 3) * 0.1, ease: [0.16, 1, 0.3, 1] }}
+              className="w-[85vw] flex-shrink-0 snap-start sm:w-[60vw] lg:w-[32%]"
             >
               <TiltCard className="h-full">
                 <a
