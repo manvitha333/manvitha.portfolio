@@ -22,14 +22,6 @@ const projects = [
     tags: ["Next.js", "Tailwind", "CMS"],
   },
   {
-    name: "Landing Page UI",
-    description:
-      "A modern, responsive SaaS landing page built with React and Tailwind CSS, featuring smooth scroll animations and clean component-driven layout.",
-    href: "#",
-    image: "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=900&q=70",
-    tags: ["React", "Tailwind", "Frontend"],
-  },
-  {
     name: "Dashboard UI",
     description:
       "An analytics dashboard interface with charts, dark theme, and reusable components — focused on pixel-perfect frontend design.",
