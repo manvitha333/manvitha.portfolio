@@ -22,11 +22,20 @@ const projects = [
     tags: ["Next.js", "Tailwind", "CMS"],
   },
   {
-    name: "Portfolio",
-    description: "My personal portfolio showcasing projects, experience and skills.",
-    href: "https://manvitha-portfolio.vercel.app/",
-    image: "https://manvitha-portfolio.vercel.app/_next/image?url=%2Fimages%2Fportfolio.png&w=640&q=75",
-    tags: ["Next.js", "Tailwind"],
+    name: "Landing Page UI",
+    description:
+      "A modern, responsive SaaS landing page built with React and Tailwind CSS, featuring smooth scroll animations and clean component-driven layout.",
+    href: "#",
+    image: "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=900&q=70",
+    tags: ["React", "Tailwind", "Frontend"],
+  },
+  {
+    name: "Dashboard UI",
+    description:
+      "An analytics dashboard interface with charts, dark theme, and reusable components — focused on pixel-perfect frontend design.",
+    href: "#",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=70",
+    tags: ["React", "TypeScript", "UI"],
   },
   {
     name: "5Mags",

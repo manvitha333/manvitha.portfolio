@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import SectionHeader from "./SectionHeader";
 
 const paragraphs = [
-  "I'm a passionate beginner in web development, eager to learn and build engaging digital experiences. I enjoy creating user-friendly and visually appealing websites while continuously improving my problem-solving and technical skills.",
+  "I'm a passionate MERN stack developer, eager to learn and build engaging digital experiences. I enjoy creating user-friendly and visually appealing websites while continuously improving my problem-solving and technical skills.",
   "I've worked on multiple projects that focus on enhancing user experience and functionality. Beyond coding, I love exploring new technologies and working on innovative ideas, such as AI-powered tools and platforms that promote social impact.",
   "I also have a few product ideas that I'm looking to invest in with a proper partner, aiming to build impactful solutions that solve real-world problems. With a strong passion for business, I aspire to turn my ideas into successful ventures.",
   "In my free time, I enjoy experimenting with web design, learning new development techniques, and bringing creative ideas to life. Additionally, I'm interested in freelancing—if anyone is looking for a dedicated developer, feel free to reach out!",
