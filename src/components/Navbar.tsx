@@ -15,19 +15,48 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => {
-      setScrolled(window.scrollY > 40);
-      const sections = links.map((l) => document.querySelector(l.href));
-      const y = window.scrollY + 200;
-      sections.forEach((s, i) => {
-        if (s instanceof HTMLElement && s.offsetTop <= y && s.offsetTop + s.offsetHeight > y) {
-          setActive(links[i].href.slice(1));
-        }
-      });
-    };
+    const onScroll = () => setScrolled(window.scrollY > 40);
     window.addEventListener("scroll", onScroll, { passive: true });
     onScroll();
     return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  useEffect(() => {
+    const sections = links
+      .map((l) => document.querySelector(l.href))
+      .filter((el): el is HTMLElement => el instanceof HTMLElement);
+
+    if (sections.length === 0) return;
+
+    // Track visibility ratios so we can pick the most-visible section.
+    const ratios = new Map<string, number>();
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          ratios.set(entry.target.id, entry.intersectionRatio);
+        });
+
+        let topId = "";
+        let topRatio = 0;
+        ratios.forEach((ratio, id) => {
+          if (ratio > topRatio) {
+            topRatio = ratio;
+            topId = id;
+          }
+        });
+
+        if (topId && topRatio > 0) setActive(topId);
+      },
+      {
+        // Bias toward the section currently under the navbar area.
+        rootMargin: "-20% 0px -55% 0px",
+        threshold: [0, 0.1, 0.25, 0.5, 0.75, 1],
+      }
+    );
+
+    sections.forEach((s) => observer.observe(s));
+    return () => observer.disconnect();
   }, []);
 
   return (
