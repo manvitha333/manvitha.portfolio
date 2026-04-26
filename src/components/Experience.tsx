@@ -4,11 +4,20 @@ import SectionHeader from "./SectionHeader";
 
 const experiences = [
   {
-    period: "June 2024 — Jan 2025",
+    period: "April 2025 — Present",
+    title: "Quality Analyst | Amazeip Solutions",
+    company: "Amazeip Solutions",
+    description:
+      "Responsible for ensuring software quality through functional and manual testing. Identify, track, and report bugs to improve product performance and reliability. Work closely with developers and stakeholders to meet quality standards. Validate requirements and ensure deliverables align with client expectations.",
+    href: "#",
+    tags: ["QA", "Manual Testing", "Functional Testing"],
+  },
+  {
+    period: "June 2024 — Feb 2025",
     title: "Full Stack Developer Intern | MERN Stack",
     company: "Hanvitec Solutions",
     description:
-      "Worked as a Full Stack Developer Intern at Hanvitec Solutions, contributing to real-world projects alongside senior developers. Gained practical experience in building and managing web applications using the MERN stack.",
+      "Worked on real-world web applications alongside senior developers. Built and maintained applications using MongoDB, Express.js, React.js, and Node.js. Gained hands-on experience in both frontend and backend development.",
     href: "https://drive.google.com/file/d/1GVnCc2MAw0INd1GzdIvWAKDOT9moo4Cy/view?usp=drive_link",
     tags: ["MongoDB", "Express", "React", "Node.js"],
   },
