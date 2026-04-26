@@ -65,7 +65,7 @@ const About = () => {
 
               <div className="mt-8 grid grid-cols-3 gap-4">
                 {[
-                  { num: "7+", label: "Projects" },
+                  { num: "Multiple", label: "Projects" },
                   { num: "2", label: "Internships" },
                   { num: "∞", label: "Curiosity" },
                 ].map((s) => (
