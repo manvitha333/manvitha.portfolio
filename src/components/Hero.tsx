@@ -36,7 +36,7 @@ const Hero = () => {
 
           <motion.div variants={item} className="mt-6 flex items-center gap-3">
             <div className="h-px w-12 bg-primary" />
-            <p className="font-mono text-sm tracking-widest text-primary uppercase">Full Stack Developer</p>
+            <p className="font-mono text-sm tracking-widest text-primary uppercase">MERN STACK DEVELOPER</p>
           </motion.div>
 
           <motion.p variants={item} className="mt-8 max-w-xl text-lg leading-relaxed text-muted-foreground">

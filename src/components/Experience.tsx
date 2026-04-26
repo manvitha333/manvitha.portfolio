@@ -8,7 +8,7 @@ const experiences = [
     title: "Quality Analyst | Amazeip Solutions",
     company: "Amazeip Solutions",
     description:
-      "Responsible for ensuring software quality through functional and manual testing. Identify, track, and report bugs to improve product performance and reliability. Work closely with developers and stakeholders to meet quality standards. Validate requirements and ensure deliverables align with client expectations.",
+      "Quality Analyst with a strong focus on ensuring system accuracy, reliability, and adherence to quality standards. Experienced in validating application functionality, identifying defects, and driving improvements through structured testing and analysis.\n\nCommitted to delivering high-quality outcomes through attention to detail, analytical thinking, and a continuous improvement mindset.",
     href: "#",
     tags: ["QA", "Manual Testing", "Functional Testing"],
   },
