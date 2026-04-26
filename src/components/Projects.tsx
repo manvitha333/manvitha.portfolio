@@ -93,7 +93,6 @@ const Projects = () => {
                       loading="lazy"
                       className="relative h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-110"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-card via-card/30 to-transparent opacity-60" />
                     {p.badge && (
                       <span className="absolute left-4 top-4 rounded-full glass px-3 py-1 font-mono text-[10px] uppercase tracking-wider text-primary">
                         {p.badge}
