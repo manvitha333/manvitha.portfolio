@@ -1,14 +1,16 @@
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Instagram, Sparkles } from "lucide-react";
 import avatar from "@/assets/avatar.jpg";
 
-const container = {
+const EASE = [0.16, 1, 0.3, 1] as const;
+
+const container: Variants = {
   hidden: {},
   show: { transition: { staggerChildren: 0.08, delayChildren: 2.4 } },
 };
-const item = {
+const item: Variants = {
   hidden: { opacity: 0, y: 30 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.16, 1, 0.3, 1] } },
+  show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: EASE } },
 };
 
 const Hero = () => {
