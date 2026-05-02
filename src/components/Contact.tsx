@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, Instagram } from "lucide-react";
+import { Mail, Github, Linkedin } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -36,9 +36,8 @@ const Contact = () => {
 
             <div className="mt-10 flex items-center justify-center gap-4">
               {[
-                { Icon: Github, href: "https://github.com" },
-                { Icon: Linkedin, href: "https://linkedin.com" },
-                { Icon: Instagram, href: "https://instagram.com" },
+              { Icon: Github, href: "https://github.com" },
+                { Icon: Linkedin, href: "https://www.linkedin.com/in/manvithareddyarimanda/" },
               ].map(({ Icon, href }, i) => (
                 <a
                   key={i}
