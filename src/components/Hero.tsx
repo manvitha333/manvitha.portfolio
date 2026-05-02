@@ -100,14 +100,6 @@ const Hero = () => {
             <div className="text-primary">React</div>
             <div className="text-muted-foreground">+ Next.js</div>
           </motion.div>
-          <motion.div
-            animate={{ y: [0, 10, 0] }}
-            transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute -right-4 bottom-24 rounded-2xl glass-strong px-4 py-3 font-mono text-xs shadow-card"
-          >
-            <div className="text-secondary">MongoDB</div>
-            <div className="text-muted-foreground">Express • Node</div>
-          </motion.div>
         </motion.div>
       </div>
 
