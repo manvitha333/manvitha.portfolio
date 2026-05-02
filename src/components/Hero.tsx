@@ -1,5 +1,5 @@
 import { motion, type Variants } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Instagram, Sparkles } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Sparkles } from "lucide-react";
 import avatar from "@/assets/avatar.jpg";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
@@ -66,8 +66,7 @@ const Hero = () => {
           <motion.div variants={item} className="mt-10 flex items-center gap-5">
             {[
               { Icon: Github, href: "https://github.com" },
-              { Icon: Linkedin, href: "https://linkedin.com" },
-              { Icon: Instagram, href: "https://instagram.com" },
+              { Icon: Linkedin, href: "https://www.linkedin.com/in/manvithareddyarimanda/" },
             ].map(({ Icon, href }, i) => (
               <a
                 key={i}
