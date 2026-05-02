@@ -53,14 +53,6 @@ const Hero = () => {
               View my work
               <span className="absolute inset-0 -translate-x-full bg-white/20 transition-transform duration-700 group-hover:translate-x-full" />
             </a>
-            <a
-              href="https://drive.google.com/file/d/113lUtLT1VpAeeIS85zxZYWIvVtb4lItG/view?usp=drive_link"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 rounded-full glass px-7 py-3.5 text-sm font-semibold transition-all hover:border-primary/50 hover:text-primary"
-            >
-              View Resume
-            </a>
           </motion.div>
 
           <motion.div variants={item} className="mt-10 flex items-center gap-5">
