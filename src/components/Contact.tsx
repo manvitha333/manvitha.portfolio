@@ -54,8 +54,8 @@ const Contact = () => {
         </motion.div>
 
         <footer className="mt-20 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 text-xs text-muted-foreground sm:flex-row">
-          <p className="font-mono">© {new Date().getFullYear()} Manvitha Reddy</p>
-          <p className="font-mono">Crafted with ♥ — React + Tailwind + Framer Motion</p>
+          <p className="font-mono">© 2025 Manvitha Reddy</p>
+          <p className="font-mono">Standing out is hard. let your ideas be seen, I’ll make it happen. — Manvitha Reddy</p>
         </footer>
       </div>
     </section>
