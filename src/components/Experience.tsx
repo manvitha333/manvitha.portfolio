@@ -88,25 +88,6 @@ const Experience = () => {
               </motion.div>
             ))}
           </div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="mt-12 flex justify-center"
-          >
-            <a
-              href="https://drive.google.com/file/d/113lUtLT1VpAeeIS85zxZYWIvVtb4lItG/view?usp=drive_link"
-              target="_blank"
-              rel="noreferrer"
-              className="group inline-flex items-center gap-2 rounded-full glass px-6 py-3 text-sm font-medium transition-all hover:border-primary/60 hover:text-primary hover:shadow-glow"
-            >
-              <FileText className="h-4 w-4" />
-              View Full Resume
-              <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-            </a>
-          </motion.div>
         </div>
       </div>
     </section>
